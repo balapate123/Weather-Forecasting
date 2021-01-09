@@ -1,0 +1,184 @@
+/*
+    Theme Responsive Design
+*/
+
+@media (max-width: 1024px) {
+	.feature_moc .back_moc {
+		left: 160px;
+		top: 20px;
+	}
+    .dl_moc_1 {
+        top: -135px;
+    }
+    .dl_moc_2 {
+        top: -70px;
+    }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    ul.nav > li > a {
+        font-size: 12px;
+        line-height: 70px;
+        padding: 0 10px;
+    }
+    .service_moc{
+        background-image: url(../img/feature-moc-tab.png);
+    }
+    .service_items.inverted,
+    .service_items{
+        margin: 0;
+    }
+    .service_items.inverted .service_item{
+        margin-left: 0;
+    }
+    .service_items.inverted .service_item,
+    .service_items .service_item,
+    .service_items {
+        padding: 0;
+    }
+    .service_items .service_item h3{
+        margin: 5px 0;
+    }
+    .service_items .service_item p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    
+
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+	
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .padding{
+        padding: 60px 0;
+    }
+    .xs-padding{
+        padding: 15px;
+    }
+    .mb-40{
+        margin-bottom: 30px;
+    }
+    .hero_content {
+        padding: 120px 0;
+    }
+    .lg_btn {
+        line-height: 40px;
+        padding: 0 18px;
+    }
+    .lg_btn i {
+        font-size: 18px;
+        line-height: 40px;
+        margin-right: 5px;
+    }
+    .navbar-header .brand {
+        display: block;
+        padding: 0px 25px;
+    }
+	.navbar-header,
+	.scrollActive .navbar-header {
+		padding: 10px 0;
+	}
+	.navbar-toggle{
+		margin-top: 2px;
+	}
+    .navbar-collapse {
+        background-color: #232323;
+        border-top: medium none;
+        box-shadow: none;
+        margin-top: 0px;
+        overflow-x: visible;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    ul.nav{
+        margin: 0;
+        overflow: hidden;
+    }
+    ul.nav > li{
+        display: block;
+        margin: 0;
+    }
+    .scrollActive ul.nav > li > a,
+    ul.nav > li > a{
+        display: block;
+        font-size: 12px;
+        color: #888;
+        line-height: 40px;
+        padding: 0 30px;
+    }
+    ul.nav > li > a:hover,
+    ul.nav > li.active > a {
+        background-color: transparent;
+        color: #fff;
+    }
+    .service_items .service_item{
+        text-align: left;
+    }
+    .scroll-to-top{
+        display: none !important;
+    }
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 480px CSS ---- */
+@media all and (max-width: 480px) {
+    .promo_items li.col-sm-4{
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .slick-slide img {
+		margin: 0 auto;
+	}
+    .subscribe_form{
+        display: block;
+        text-align: center;
+        width:100%;
+    }
+    .col-xs-6{
+        float: none;
+        width: 100%;
+    }
+
+}
+/* ---- End of max-width 480px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+	
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+	h1 {
+        font-size: 25px;
+    }
+}
+/* ---- End of max-width 380px CSS ---- */
